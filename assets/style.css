@@ -1,0 +1,11 @@
+* {
+    font-family: monospace;
+}
+
+/* Title formatting */
+.hero {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding-top: 0.5rem;
+}
