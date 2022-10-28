@@ -9,3 +9,92 @@
     background-color: grey;
     padding-top: 0.5rem;
 }
+
+/* Side bar search formatting */
+.side-bar {
+    padding: 0 2rem;
+    -ms-flex: 0 0 230px;
+    flex: 0 0 230px;
+}
+
+#recent-searches {
+    margin-top: 1rem;
+    border-top: 1px rgb(255, 1, 1);
+    border-top-style: solid;
+}
+
+/* Formatting for main weather info display */
+#title-img {
+    width: 40px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Formatting for buttons */
+#search-button {
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 10px;
+    border-style: none;
+    color: rgb(251, 153, 26);
+    cursor: pointer;
+    width: 90%;
+    padding: 6px 0px;
+    text-align: center;
+}
+
+#search-button:hover {
+    background-color: #65a0e7;
+}
+
+.recent-search-btn {
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    padding: 6px 0px;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.recent-search-btn:hover {
+    background-color: rgba(4, 239, 8, 0.9);
+}
+
+/* 5-Day Forecast formatting */
+.five-day-item {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 20%;
+    background-color: grey;
+    color: white;
+}
+
+.five-day-icon {
+    width: 50px;
+}
+
+.favorable {
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px 10px 0 10px;
+}
+
+.moderate {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px 10px 0 10px;
+}
+
+.severe {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 10px 0 10px;
+}
